@@ -1,3 +1,154 @@
-# Build folder and log file
+# Compiled class files
+*.class
+
+# Log files
+*.log
+logs/
+*.log.*
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs
+hs_err_pid*
+replay_pid*
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Gradle
+.gradle/
 build/
-build.log
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# IDEs and editors
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### VS Code ###
+.vscode/
+*.code-workspace
+.settings/
+.project
+.classpath
+.factorypath
+
+### Eclipse ###
+.apt_generated
+.settings/
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Operating System
+### Mac OS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+# Folder config file
+[Dd]esktop.ini
+# Windows shortcuts
+*.lnk
+
+# Configuration files
+application-*.yml
+!application.yml
+!application-dev.yml
+!application-prod.yml
+*.properties
+!application.properties
+*.env
+.env*
+!.env.example
+
+# Node (for frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.npm/
+.yarn/
+dist/
+coverage/
+.next/
+.nuxt/
+.vuepress/dist
+.temp
+.cache
+.docusaurus
+
+# Cloudinary credentials
+cloudinary.properties
+
+# Test coverage reports
+coverage/
+.coverage
+coverage.xml
+*.cover
+htmlcov/
+
+# Database
+*.sqlite
+*.db
+*.sql
+
+# Temp files
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Local development overrides
+docker-compose.override.yml
